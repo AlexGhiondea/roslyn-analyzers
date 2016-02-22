@@ -415,6 +415,9 @@
     <value>{0}</value>
     <comment>CA3075</comment>
   </data>
+  <data name="InsecureDtdProcessingInApiDesign" xml:space="preserve">
+    <value>Insecure Processing in API Design, XmlDocument and XmlTextReader</value>
+    <comment>CA3077</comment>
   <data name="InsecureXsltScriptProcessingMessage" xml:space="preserve">
     <value>Insecure XSLT script processing.</value>
     <comment>CA3076</comment>
@@ -433,5 +436,22 @@
   </data>
   <data name="DoNotUseInsecureDTDProcessingGenericMessage" xml:space="preserve">
     <value>{0}</value>
+  </data>
+  </data>
+  <data name="XmlTextReaderDerivedClassConstructorNoSecureSettingsMessage" xml:space="preserve">
+    <value>Constructor of XmlTextReader derived class {0} uses insecure default values for DTD processing.</value>
+    <comment>CA3077</comment>
+  </data>
+  <data name="XmlTextReaderDerivedClassNoConstructorMessage" xml:space="preserve">
+    <value>XmlTextReader derived class {0} doesn't explictily define a constructor.</value>
+    <comment>CA3077</comment>
+  </data>
+  <data name="XmlTextReaderDerivedClassSetInsecureSettingsInMethodMessage" xml:space="preserve">
+    <value>{0} method of XmlTextReader derived class sets XmlResolver and/or DtdProcessing property to insecure value.</value>
+    <comment>CA3077</comment>
+  </data>
+  <data name="DoNotUseInsecureDTDProcessingGenericMessage" xml:space="preserve">
+    <value>{0}</value>
+    <comment>CA3075</comment>
   </data>
 </root>
