@@ -167,6 +167,8 @@
     <Compile Include="DoNotUseInsecureDTDProcessingXmlTextReaderConstructedWithNoSecureResolutionTests.cs" />
     <Compile Include="DoNotUseInsecureDTDProcessingXmlTextReaderSetInsecureResolutionTests.cs" />
     <Compile Include="DoNotUseInsecureDTDProcessingCreateUsingInsecureInputXmlReaderSettingsTests.cs" />
+    <Compile Include="DoNotUseInsecureXSLTScriptExecutionXslCompiledTransformLoadInsecureConstructedSettingsTests.cs" />
+    <Compile Include="DoNotUseInsecureXSLTScriptExecutionXslCompiledTransformLoadInsecureInputSettingsTests.cs" />
     <Compile Include="DoNotCatchCorruptedStateExceptionsTests.cs" />
     <Compile Include="DoNotUseInsecureCryptographicAlgorithmsTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
